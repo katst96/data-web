@@ -1,0 +1,32 @@
+body {
+	margin: 40px;
+	background-color: #ffaf4d;
+	font-family: helvetica;
+	font-size: 32px;
+}
+
+.header {
+	background-color: white;
+	text-align: center;
+	padding:20px;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 25px;
+	grid-template-rows: repeat(auto(minmax(320px, 1fr)));
+	grid-template-columns: repeat(3, 1fr);
+	-background-color: gray;
+	color: maroon;
+	font-size: 1.5rem;
+}
+
+.grid-container{
+	display: grid;
+	background-color: rgb(247, 3, 48)
+	border-radius: 10px;
+	max-height: 400px;
+	padding: 20px;
+	font-size: .8rem;
+}
+
